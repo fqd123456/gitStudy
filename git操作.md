@@ -15,6 +15,7 @@ git reset --hard 版本号 回退到指定的版本号。  (git log --online 查
 
 # 合并
 git merge 分支名  合并分支到当前分支。
+<<<<<<< HEAD
 
 
 
@@ -25,3 +26,6 @@ git merge 分支名  合并分支到当前分支。
 
 2. git merge 分支名 合并分支到当前分支。
 
+=======
+- 无冲突合并和简单合并。直接merge即可。
+>>>>>>> fqd2
