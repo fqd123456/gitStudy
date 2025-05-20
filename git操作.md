@@ -15,3 +15,13 @@ git reset --hard 版本号 回退到指定的版本号。  (git log --online 查
 
 # 合并
 git merge 分支名  合并分支到当前分支。
+
+
+
+## 分支提交 合并
+1. git checkout 分支名  切换分支  
+    加 -b 可以创建一个新的分支。
+- 如果在当前分支修改，push到老分支，会提示都是新的。因为你并没有在老分支commit
+
+2. git merge 分支名 合并分支到当前分支。
+
